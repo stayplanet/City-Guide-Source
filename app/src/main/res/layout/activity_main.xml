@@ -3,7 +3,7 @@
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#f7f7f7"
+    android:background="#ffffff"
     android:orientation="vertical">
 
     <ImageView
@@ -12,10 +12,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right" />
     <!--<fragment-->
-        <!--android:id="@+id/ggmap"-->
-        <!--android:name="com.google.android.gms.maps.MapFragment"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="200dp"/>-->
+    <!--android:id="@+id/ggmap"-->
+    <!--android:name="com.google.android.gms.maps.MapFragment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"/>-->
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="0dip"

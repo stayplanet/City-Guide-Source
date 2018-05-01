@@ -3,7 +3,7 @@
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#f7f7f7"
+    android:background="#ffffff"
     android:orientation="vertical">
 
     <ImageView
@@ -108,8 +108,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dip"
                         android:layout_weight="1"
-                        android:onClick="btnYoutube"
                         android:gravity="center_horizontal"
+                        android:onClick="btnYoutube"
                         android:orientation="vertical">
 
                         <TableRow
@@ -148,8 +148,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dip"
                         android:layout_weight="1"
-                        android:onClick="btnLinkedin"
                         android:gravity="center_horizontal"
+                        android:onClick="btnLinkedin"
                         android:orientation="vertical">
 
                         <TableRow
@@ -196,8 +196,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dip"
                         android:layout_weight="1"
-                        android:onClick="btnGoogleplus"
                         android:gravity="center_horizontal"
+                        android:onClick="btnGoogleplus"
                         android:orientation="vertical">
 
                         <TableRow
@@ -276,8 +276,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dip"
                         android:layout_weight="1"
-                        android:onClick="btnPinterest"
                         android:gravity="center_horizontal"
+                        android:onClick="btnPinterest"
                         android:orientation="vertical">
 
                         <TableRow
