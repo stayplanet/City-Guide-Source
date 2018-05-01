@@ -54,7 +54,7 @@ public class FindUsActivity extends Activity {
     // .............Top Bar Details Change--------------//
 
     public void btnFacebook(View v) {
-        AllConstants.webUrl = "https://www.facebook.com/nsniteshsahni";
+        AllConstants.webUrl = "https://www.facebook.com/stayplanet";
 
         Intent next = new Intent(con, DroidWebViewActivity.class);
         next.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -62,7 +62,7 @@ public class FindUsActivity extends Activity {
     }
 
     public void btnYoutube(View v) {
-        AllConstants.webUrl = "https://www.youtube.com/channel/UCOhHO2ICt0ti9KAh-QHvttQ";
+        AllConstants.webUrl = "https://www.youtube.com/stayplanet";
 
         Intent next = new Intent(con, DroidWebViewActivity.class);
         next.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -70,7 +70,7 @@ public class FindUsActivity extends Activity {
     }
 
     public void btnLinkedin(View v) {
-        AllConstants.webUrl = "https://www.linkedin.com/in/nitesh-sahni-1b8226a3";
+        AllConstants.webUrl = "https://www.linkedin.com/company/stayplanet/";
 
         Intent next = new Intent(con, DroidWebViewActivity.class);
         next.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -78,7 +78,7 @@ public class FindUsActivity extends Activity {
     }
 
     public void btnGoogleplus(View v) {
-        AllConstants.webUrl = "https://plus.google.com/u/0/+NiteshSahni007/posts";
+        AllConstants.webUrl = "https://plus.google.com/+stayplanet";
 
         Intent next = new Intent(con, DroidWebViewActivity.class);
         next.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -86,7 +86,7 @@ public class FindUsActivity extends Activity {
     }
 
     public void btnTwitter(View v) {
-        AllConstants.webUrl = "https://twitter.com/nsniteshsahni";
+        AllConstants.webUrl = "https://twitter.com/stayplanet";
 
         Intent next = new Intent(con, DroidWebViewActivity.class);
         next.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -94,7 +94,15 @@ public class FindUsActivity extends Activity {
     }
 
     public void btnPinterest(View v) {
-        AllConstants.webUrl = "https://github.com/nsniteshsahni";
+        AllConstants.webUrl = "https://www.pinterest.ie/stayplanet/";
+
+        Intent next = new Intent(con, DroidWebViewActivity.class);
+        next.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(next);
+    }
+
+    public void btnInstagram(View v) {
+        AllConstants.webUrl = "https://www.instagram.com/stayplanet/";
 
         Intent next = new Intent(con, DroidWebViewActivity.class);
         next.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
