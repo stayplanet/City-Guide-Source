@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import xyz.niteshsahni.cityguidepro.R;
 import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -29,7 +30,8 @@ public class MapsActivity extends FragmentActivity implements LocationListener {
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setTitle("MY LOCATION");
         // Getting Google Play availability status
-        int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getBaseContext());
+       int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getBaseContext());
+       // int status=GoogleApiAvailability.GOOGLE_PLAY_SERVICES_VERSION_CODE;
 
         // Showing status
         if(status!= ConnectionResult.SUCCESS){ // Google Play Services are not available
