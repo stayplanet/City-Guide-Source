@@ -2,9 +2,13 @@ package xyz.niteshsahni.cityguidepro.activity;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+
+import xyz.niteshsahni.cityguidepro.extra.AllConstants;
 
 public class AboutUsActivity extends Activity {
     private Context con;
@@ -43,4 +47,13 @@ public class AboutUsActivity extends Activity {
         }
 
     }
+
+    public void btnWeb(View v) {
+        AllConstants.webUrl = "https://www.stayplanet.com";
+
+        Intent next = new Intent(con, DroidWebViewActivity.class);
+        next.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(next);
+    }
+
 }
