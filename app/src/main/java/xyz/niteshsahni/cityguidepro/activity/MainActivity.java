@@ -708,7 +708,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
                 break;
 
             case xyz.niteshsahni.cityguidepro.R.id.temples:
-                AllConstants.topTitle = "TEMPLES LIST";
+                AllConstants.topTitle = "CHURCHES LIST";
                 AllConstants.query = "hindu_temple";
                 final Intent temple = new Intent(this, ListActivity.class);
                 temple.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

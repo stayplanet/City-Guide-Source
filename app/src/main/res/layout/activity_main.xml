@@ -648,7 +648,7 @@
                                 android:layout_marginLeft="2dip"
                                 android:layout_marginRight="2dip"
                                 android:layout_marginTop="1dip"
-                                android:text="Temples"
+                                android:text="Churches"
                                 android:textColor="#263238"
                                 android:textSize="14sp" />
                         </TableRow>
@@ -1057,7 +1057,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="2dip"
-                                android:src="@drawable/school" />
+                                android:src="@drawable/university" />
                         </TableRow>
 
                         <TableRow
