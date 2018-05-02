@@ -11,6 +11,12 @@
         <item name="android:actionBarTabStyle">@style/ActionBarTabStyle</item>
 
         <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <!-- ggggg-->
+        <item name="android:textAppearanceLargePopupMenu">@style/PopupMenuTextAppearanceLarge</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/PopupMenuTextAppearanceSmall</item>
+       <!--ggggg-->
+
+
         <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
         <item name="android:actionBarWidgetTheme">@style/Theme.stylingactionbar.widget</item>
         <item name="android:actionDropDownStyle">@style/DropDownNav</item>
@@ -27,6 +33,11 @@
         <item name="android:actionBarTabStyle">@style/ActionBarTabStyle</item>
 
         <item name="android:popupMenuStyle">@style/PopupMenu</item>
+
+        <item name="android:textAppearanceLargePopupMenu">@style/PopupMenuTextAppearanceLarge</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/PopupMenuTextAppearanceSmall</item>
+
+
         <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
         <item name="android:actionBarWidgetTheme">@style/Theme.stylingactionbar.widget</item>
         <item name="android:actionDropDownStyle">@style/DropDownNav</item>
@@ -56,14 +67,30 @@
     </style>
 
     <style name="PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
-        <item name="android:popupBackground">#03A9F4</item>
+       <!--<item name="android:popupBackground">#03A9F4</item>-->
+        <item name="android:popupBackground">#dd0059</item>
+        <item name="android:textColor">#FFFFFF</item>
+
 
     </style>
 
+    <style name="PopupMenuTextAppearanceSmall" parent="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="PopupMenuTextAppearanceLarge" parent="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Large">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 
+
+
+<!-- -->
     <style name="DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
-        <item name="android:listSelector">#1cb8ff</item>
-        <item name="android:divider">#1cb8ff</item>
+       <!-- <item name="android:listSelector">#1cb8ff</item>-->
+        <item name="android:listSelector">#311641</item>
+        <item name="android:divider">#311641</item>
+
         <item name="android:dividerHeight">1dp</item>
     </style>
 
@@ -78,9 +105,11 @@
         <item name="android:popupBackground">@drawable/actionbar_bg</item>
         <item name="android:dropDownSelector">@drawable/actionbar_bg</item>
 
+
     </style>
 
     <style name="DropDownItem" parent="@android:style/Widget.Holo.Light.DropDownItem.Spinner">
+       <!-- <item name="android:background">#000000</item>-->
         <!--<item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>-->
 
     </style>
