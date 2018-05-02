@@ -660,7 +660,7 @@
                                 android:layout_marginLeft="2dip"
                                 android:layout_marginRight="2dip"
                                 android:layout_marginTop="1dip"
-                                android:text="Theaters"
+                                android:text="Theatres"
                                 android:textColor="#000"
                                 android:textSize="16sp" />
                         </TableRow>

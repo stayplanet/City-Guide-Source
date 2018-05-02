@@ -709,7 +709,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
 
             case xyz.niteshsahni.cityguidepro.R.id.temples:
                 AllConstants.topTitle = "CHURCHES LIST";
-                AllConstants.query = "hindu_temple";
+                AllConstants.query = "church";
                 final Intent temple = new Intent(this, ListActivity.class);
                 temple.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(temple);
@@ -717,7 +717,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
                 break;
 
             case xyz.niteshsahni.cityguidepro.R.id.theater:
-                AllConstants.topTitle = "THEATER LIST";
+                AllConstants.topTitle = "THEATRE LIST";
                 AllConstants.query = "movie_theater";
                 final Intent movie_theater = new Intent(this, ListActivity.class);
                 movie_theater.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
