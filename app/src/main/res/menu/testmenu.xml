@@ -61,7 +61,8 @@
                 android:actionProviderClass="android.widget.ShareActionProvider"
                 android:icon="@drawable/shareit"
                 android:showAsAction="ifRoom"
-                android:title="Share" />
+                android:title="Share"
+                />
         </menu>
     </item>
 
