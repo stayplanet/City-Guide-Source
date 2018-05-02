@@ -507,7 +507,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
         Intent shareIntent = new Intent(Intent.ACTION_SEND);
         shareIntent.setType("text/plain");
         shareIntent.putExtra(Intent.EXTRA_TEXT,
-                "Find us on Github to share the apk, https://github.com/nsniteshsahni/city-guide-pro/");
+                "Find us on Github to share the apk, https://github.com/stayplanet");
         return shareIntent;
     }
 
