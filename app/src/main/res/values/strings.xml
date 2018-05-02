@@ -40,7 +40,7 @@
     <string name="title_activity_driving_details">DrivingDetailsActivity</string>
 
     <!-- About Us Details -->
-    <string name="about_us_details">© Nitesh Sahni</string>
+    <string name="about_us_details">© Javier Conde, David Pérez, Tom Bowden.</string>
     <string name="about_us_address">41 Lower Dominick Street Dublin 1, Ireland.</string>
     <string name="about_us_phone">+353 1879 2363</string>
     <string name="about_us_web"><a href="https://stayplanet.com/">www.stayplanet.com</a></string>

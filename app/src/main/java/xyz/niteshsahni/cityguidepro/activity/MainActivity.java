@@ -420,11 +420,11 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
         // Inflate the menu; this adds items to the action bar if it is present.
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(xyz.niteshsahni.cityguidepro.R.menu.testmenu, menu);
-        MenuItem item = menu.findItem(xyz.niteshsahni.cityguidepro.R.id.menu_item_share);
+        /*MenuItem item = menu.findItem(xyz.niteshsahni.cityguidepro.R.id.menu_item_share);
         myShareActionProvider = (ShareActionProvider) item.getActionProvider();
         myShareActionProvider.setShareHistoryFileName(
                 ShareActionProvider.DEFAULT_SHARE_HISTORY_FILE_NAME);
-        myShareActionProvider.setShareIntent(createShareIntent());
+        myShareActionProvider.setShareIntent(createShareIntent());*/
         return super.onCreateOptionsMenu(menu);
 
     }
