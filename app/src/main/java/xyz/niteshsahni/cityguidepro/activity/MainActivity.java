@@ -67,8 +67,8 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
     double latitude;
     double longitude;
 
-    AdView adView;
-    AdRequest bannerRequest, fullScreenAdRequest;
+    //AdView adView;
+    //AdRequest bannerRequest, fullScreenAdRequest;
     InterstitialAd fullScreenAdd;
     private LinearLayout atms, banks, bookstores, busstations, cafes, carwash,
             dentist, doctor, food, gasstation, grocery, gym, hospitals,
@@ -86,7 +86,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
         con = this;
         locUI();
         iUI();
-        enableAd();
+        //enableAd();
         LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
         if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
@@ -96,7 +96,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
         }
     }
 
-    private void enableAd() {
+    /*private void enableAd() {
         // TODO Auto-generated method stub
 
         // adding banner add
@@ -129,7 +129,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
 
         // TODO Auto-generated method stub
 
-    }
+    }*/
 
 
 

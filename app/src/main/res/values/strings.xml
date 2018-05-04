@@ -24,9 +24,9 @@
     <string name="show_me">Show me on Map</string>
     <string name="share_update">Share iT</string>
 
-    <!-- Ad Details  ca-app-pub-8406592670080616/1209889883-->
+    <!-- Ad Details  ca-app-pub-8406592670080616/1209889883
     <string name="interstitial_ad_unit_id"></string>
-    <string name="banner_ad_unit_id">ca-app-pub-9879918937375895/5172508362</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9879918937375895/5172508362</string>-->
 
     <!-- Search  -->
     <string name="search_hint">Search color..</string>

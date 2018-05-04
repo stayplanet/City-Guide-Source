@@ -51,8 +51,8 @@ public class ListActivity extends Activity{
 	private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 1000;
 
 
-	AdView adView;
-	AdRequest bannerRequest, fullScreenAdRequest;
+	//AdView adView;
+	//AdRequest bannerRequest, fullScreenAdRequest;
 	InterstitialAd fullScreenAdd;
 
 	/** Called when the activity is first created. */
@@ -67,7 +67,7 @@ public class ListActivity extends Activity{
 		aBar();
 		con = this;
 		initUI();
-		enableAd();
+		//enableAd();
 
 	 }
 
@@ -113,7 +113,7 @@ public class ListActivity extends Activity{
 
 	}
 
-	private void enableAd() {
+	/*private void enableAd() {
 		// TODO Auto-generated method stub
 
 		// adding banner add
@@ -146,7 +146,7 @@ public class ListActivity extends Activity{
 
 		// TODO Auto-generated method stub
 
-	}
+	}*/
 
 	private void initUI() {
 		// TODO Auto-generated method stub

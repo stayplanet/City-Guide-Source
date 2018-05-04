@@ -52,8 +52,8 @@ import com.google.android.gms.ads.InterstitialAd;
 
 public class ListDetailsActivity extends Activity {
 	/** Called when the activity is first created. */
-	AdView adView;
-	AdRequest bannerRequest, fullScreenAdRequest;
+	//AdView adView;
+	//AdRequest bannerRequest, fullScreenAdRequest;
 	InterstitialAd fullScreenAdd;
 	private Context con;
 	private String pos = "";
@@ -83,7 +83,7 @@ public class ListDetailsActivity extends Activity {
 
 
 		con = this;
-		enableAd();
+		//enableAd();
 		initUI();
 	}
 
@@ -131,7 +131,7 @@ public class ListDetailsActivity extends Activity {
 
 
 
-	private void enableAd() {
+	/*private void enableAd() {
 		// TODO Auto-generated method stub
 
 		// adding banner add
@@ -164,7 +164,7 @@ public class ListDetailsActivity extends Activity {
 
 		// TODO Auto-generated method stub
 
-	}
+	}*/
 	private void initUI() {
 		// TODO Auto-generated method stub
 		list = (ListView) findViewById(xyz.niteshsahni.cityguidepro.R.id.reviewListView);
