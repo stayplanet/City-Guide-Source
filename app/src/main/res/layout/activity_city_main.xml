@@ -492,7 +492,7 @@
                                 android:layout_marginLeft="2dip"
                                 android:layout_marginRight="2dip"
                                 android:layout_marginTop="1dip"
-                                android:text="Groceries"
+                                android:text="Supermarkets"
                                 android:textColor="#000"
                                 android:textSize="16sp" />
                         </TableRow>
@@ -660,7 +660,7 @@
                                 android:layout_marginLeft="2dip"
                                 android:layout_marginRight="2dip"
                                 android:layout_marginTop="1dip"
-                                android:text="Theatres"
+                                android:text="Cinemas"
                                 android:textColor="#000"
                                 android:textSize="16sp" />
                         </TableRow>
@@ -1004,7 +1004,7 @@
                                 android:layout_marginLeft="2dip"
                                 android:layout_marginRight="2dip"
                                 android:layout_marginTop="1dip"
-                                android:text="Stores"
+                                android:text="Miscellaneous"
                                 android:textColor="#000"
                                 android:textSize="16sp" />
                         </TableRow>

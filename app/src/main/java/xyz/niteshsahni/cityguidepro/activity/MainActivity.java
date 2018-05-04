@@ -665,7 +665,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks,
                 break;
             case xyz.niteshsahni.cityguidepro.R.id.food:
                 AllConstants.topTitle = "FOOD LIST";
-                AllConstants.query = "food";
+                AllConstants.query = "meal_takeaway";
                 final Intent food = new Intent(this, ListActivity.class);
                 food.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(food);
