@@ -1,9 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        configRelease {
+            keyAlias 'testKey'
+            keyPassword 'stayplanet'
+            storeFile file('C:/Users/Usuario/.android/my-key.keystore')
+            storePassword 'stayplanet'
+        }
+    }
     compileSdkVersion 22
     buildToolsVersion '27.0.3'
-
     defaultConfig {
         applicationId "xyz.niteshsahni.cityguidepro"
         minSdkVersion 15
@@ -15,12 +22,13 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.configRelease
         }
     }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.google.android.gms:play-services:7.5.0'
     implementation 'com.android.support:appcompat-v7:22.0.0'
 }

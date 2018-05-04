@@ -2,7 +2,7 @@ package xyz.niteshsahni.cityguidepro.extra;
 
 public class AllConstants {
 	//AIzaSyCnYbTq0U49WZ6dVpw-wmNuXGmJ6MgNEbg   AIzaSyCydk9TVbi6LFB1QViliQMMYiT2tDE3NZc
-	public static String apiKey = "AIzaSyDO-3P9SsUGuvd5aA6Lxux-ruvi6bpIMR4";
+	public static String apiKey = "AIzaSyBgOmczYBWFoR6a4IpjH2D-r7HDmNp5BgA";
 	public static String query = "";
 	public static String name = "";
 	public static String referrence = "";
