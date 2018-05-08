@@ -92,7 +92,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="0dip"
+                    android:layout_width="243dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="8.5"
                     android:orientation="vertical">
@@ -173,18 +173,60 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="0dip"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1.5"
-                    android:gravity="center">
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="8.5"
+                    android:orientation="vertical"
+                    android:onClick="mapViewBtn">
 
-                    <ImageView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:onClick="mapViewBtn"
-                        android:padding="2dip"
-                        android:src="@drawable/mappin" />
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <TableRow
+                            android:layout_width="0dip"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:padding="2dip"
+                                android:src="@drawable/mappin" />
+                        </TableRow>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <TableRow
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.5"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="GPS" />
+                        </TableRow>
+
+                    </LinearLayout>
                 </LinearLayout>
+
             </LinearLayout>
 
 
